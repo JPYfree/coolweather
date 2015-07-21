@@ -3,11 +3,11 @@ package com.example.administrator.coolweather.model;
 /**
  * Created by Administrator on 2015/7/17.
  */
-public class Country {
+public class County {
 
     private int id;
-    private String countryName;
-    private String countryCode;
+    private String countyName;
+    private String countyCode;
     private int cityId;
 
     public int getCityId() {
@@ -18,20 +18,20 @@ public class Country {
         this.cityId = cityId;
     }
 
-    public String getCountryCode() {
-        return countryCode;
+    public String getCountyCode() {
+        return countyCode;
     }
 
-    public void setCountryCode(String countryCode) {
-        this.countryCode = countryCode;
+    public void setCountyCode(String countyCode) {
+        this.countyCode = countyCode;
     }
 
-    public String getCountryName() {
-        return countryName;
+    public String getCountyName() {
+        return countyName;
     }
 
-    public void setCountryName(String countryName) {
-        this.countryName = countryName;
+    public void setCountyName(String countyName) {
+        this.countyName = countyName;
     }
 
     public int getId() {
